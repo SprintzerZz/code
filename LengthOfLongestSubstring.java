@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Solution {
+class LengthOfLongestSubstring {
     public static void main(String[] args) {
         /*ccbbcc的处理注意的细节：
         [c] max=1
@@ -12,7 +12,7 @@ class Solution {
 
          */
         String s = "ccbbcc";
-        Solution solution = new Solution();
+        LengthOfLongestSubstring solution = new LengthOfLongestSubstring();
         System.out.println(solution.lengthOfLongestSubstring(s));
     }
 
