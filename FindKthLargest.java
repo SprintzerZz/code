@@ -4,7 +4,7 @@ import java.util.Random;
 
 
 class FindKthLargest {
-
+    //快速选择算法
      private int quickSelect(ArrayList<Integer> nums, int k) {
         //随机选一个pivot
         Random random=new Random();
